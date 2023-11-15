@@ -1,3 +1,59 @@
-#heading {
-  color: red;
+.app {
+  padding: 10px 10px;
+  margin: 0 20px;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.header-container {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(193, 181, 181);
+}
+
+.navbar {
+  border: 1px solid black;
+}
+
+.logo {
+  width: 75px;
+  height: autol;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  border: 1px solid rgb(223, 219, 219);
+  width: 200px;
+  max-height: 400px;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.res-card:hover {
+  box-shadow: 5px 5px 20px lightgray;
+}
+
+.res-logo {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 150px;
+}
+
+h4 {
+  margin: 0 0 20px 0;
 }
